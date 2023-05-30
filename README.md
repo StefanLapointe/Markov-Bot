@@ -3,7 +3,7 @@
 
 ## Instructions:
 1. Download channels as JSON files using DiscordChatExporter by Tyrrrz. `messages` can be any character vector, but in my workflow, I use DiscordChatExporter, and I have included the functions that I use to turn the JSON file it gives me into a character vecctor.
-2. Put these JSON files in the folder called `channels`.
+2. Put these JSON files into a folder called `channels` within the `Markov-Bot` folder.
 3. Run the R script to generate the bot folder. You will be asked to enter the bot's token, but if you don't trust my R script, you can always enter something else and then manually change the token.json file in the bot folder.
 4. Install discord.js for your JavaScript runtime environment.
 5. Your bot should now be ready to run. I use Node.js, so I `cd` to the bot folder and then enter `node .`, but I think it would work with any other JavaScript runtime environment.
