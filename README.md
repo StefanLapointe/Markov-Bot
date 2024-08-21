@@ -1,5 +1,5 @@
 # Markov-Bot
-### Some code I use to make discord bots that immitate users.
+### Generate discord bots based on your friends using a 2gram language model.
 
 ## Instructions:
 1. Download channels as JSON files using DiscordChatExporter by Tyrrrz. `messages` can be any character vector, but in my workflow, I use DiscordChatExporter, and I have included the functions that I use to turn the JSON file it gives me into a character vecctor.
